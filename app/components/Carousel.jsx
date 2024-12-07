@@ -41,15 +41,25 @@ const slides = [
     "image": "/gvg-bot.png?height=300&width=400"
   },
   {
-    id: 4,
-    name: "Smart Home IoT Dashboard",
-    description: "A comprehensive dashboard for managing and monitoring smart home IoT devices.",
-    learningPath: "IoT integration and real-time data visualization",
-    technologies: ["Angular", "RxJS", "D3.js", "Node.js", "MQTT"],
-    repository: "https://github.com/username/smart-home-dashboard",
-    liveUrl: "https://smart-home-demo.com",
-    image: "/placeholder.svg?height=300&width=400",
-  }
+    "id": 4,
+    "name": "Gamified Retro ToDoList",
+    "description": "A gamified to-do list with a retro design inspired by classic games, featuring immersive sounds and interactivity to keep users focused and motivated.",
+    "learningPath": "Gamification in web applications, retro design, audio manipulation with the Web Audio API, and responsive styling using Tailwind CSS.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Web Audio API"],
+    "repository": "https://github.com/username/gamified-retro-todolist",
+    "liveUrl": "https://gamified-retro-todolist-demo.com",
+    "image": "/placeholder.svg?height=300&width=400"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Website",
+    "description": "A gamified to-do list with a retro design inspired by classic games, featuring immersive sounds and interactivity to keep users focused and motivated.",
+    "learningPath": "Gamification in web applications, retro design, audio manipulation with the Web Audio API, and responsive styling using Tailwind CSS.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Web Audio API"],
+    "repository": "https://github.com/username/gamified-retro-todolist",
+    "liveUrl": "https://gamified-retro-todolist-demo.com",
+    "image": "/placeholder.svg?height=300&width=400"
+  }  
 ]
 
 export default function Component({ options = {} }) {
