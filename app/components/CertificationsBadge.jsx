@@ -28,8 +28,8 @@ const certifications = [
     organization: "FreeCodeCamp",
     date: "2022-04-30",
     category: "development",
-    icon: <FaDesktop className="text-[#1DA1F2]" size={40} />, // Cor verde FreeCodeCamp
-    color: "bg-[#1DA1F2]" // Cor de fundo neutra escura para contraste
+    icon: <FaDesktop className="text-[#1DA1F2]" size={40} />, 
+    color: "bg-[#1DA1F2]" 
   },
   {
     id: 3,
@@ -37,8 +37,8 @@ const certifications = [
     organization: "ADA Tech",
     date: "2024-06-24",
     category: "development",
-    icon: <FaJava className="text-[#f2521d]" size={40} />, // Cor verde FreeCodeCamp
-    color: "bg-[#f2521d]" // Cor de fundo neutra escura para contraste
+    icon: <FaJava className="text-[#f2521d]" size={40} />, 
+    color: "bg-[#f2521d]" 
   },
   {
     id: 4,
@@ -46,8 +46,8 @@ const certifications = [
     organization: "ADA Tech",
     date: "2024-06-30",
     category: "design",
-    icon: <FaFigma className="text-[#881df2]" size={40} />, // Cor verde FreeCodeCamp
-    color: "bg-[#881df2]" // Cor de fundo neutra escura para contraste
+    icon: <FaFigma className="text-[#881df2]" size={40} />, 
+    color: "bg-[#881df2]" 
   },
   {
     id: 5,
@@ -55,8 +55,8 @@ const certifications = [
     organization: "ADA Tech",
     date: "2024-07-06",
     category: "development",
-    icon: <FaNode className="text-[#20a54f]" size={40} />, // Cor verde FreeCodeCamp
-    color: "bg-[#20a54f]" // Cor de fundo neutra escura para contraste
+    icon: <FaNode className="text-[#20a54f]" size={40} />, 
+    color: "bg-[#20a54f]" 
   },
   {
     id: 6,
@@ -64,8 +64,8 @@ const certifications = [
     organization: "ADA Tech",
     date: "2024-07-12",
     category: "development",
-    icon: <FaPython className="text-[#f2d21d]" size={40} />, // Cor verde FreeCodeCamp
-    color: "bg-[#f2d21d]" // Cor de fundo neutra escura para contraste
+    icon: <FaPython className="text-[#f2d21d]" size={40} />, 
+    color: "bg-[#f2d21d]" 
   },
   {
     id: 7,
@@ -73,8 +73,8 @@ const certifications = [
     organization: "ADA Tech",
     date: "2024-06-01",
     category: "development",
-    icon: <FaLaptopCode  className="text-[#1d4ff2]" size={40} />, // Cor verde FreeCodeCamp
-    color: "bg-[#1d4ff2]" // Cor de fundo neutra escura para contraste
+    icon: <FaLaptopCode  className="text-[#1d4ff2]" size={40} />, 
+    color: "bg-[#1d4ff2]" 
   },
   // {
   //   id: 2,

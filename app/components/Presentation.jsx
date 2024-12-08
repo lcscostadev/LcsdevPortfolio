@@ -39,8 +39,9 @@ export default function Portfolio() {
             <div className="mb-6">
               <h2 className="text-2xl font-semibold mb-4">Summary</h2>
               <p className="text-gray-300 leading-relaxed">
-                I'm 25 years old and I'm a Computer Science student. I recognize myself as an enthusiast in current market technologies, always looking to learn and be better. I see my evolution daily.
+                I&apos;m 25 years old and I&apos;m a Computer Science student. I recognize myself as an enthusiast in current market technologies, always looking to learn and be better. I see my evolution daily.
               </p>
+
             </div>
             <div className="flex items-center justify-between mb-6">
               <button className="bg-yellow-500 text-gray-900 font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 transition-colors duration-300">

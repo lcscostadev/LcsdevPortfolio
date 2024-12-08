@@ -46,20 +46,20 @@ const slides = [
     "description": "A gamified to-do list with a retro design inspired by classic games, featuring immersive sounds and interactivity to keep users focused and motivated.",
     "learningPath": "Gamification in web applications, retro design, audio manipulation with the Web Audio API, and responsive styling using Tailwind CSS.",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Web Audio API"],
-    "repository": "https://github.com/username/gamified-retro-todolist",
+    "repository": "https://github.com/lcscostadev/Gamified-Retro-ToDoList",
     "liveUrl": "https://gamified-retro-todolist-demo.com",
-    "image": "/placeholder.svg?height=300&width=400"
+    "image": "/retro-todo-list.png?height=300&width=400"
   },
   {
     "id": 5,
     "name": "Portfolio Website",
-    "description": "A gamified to-do list with a retro design inspired by classic games, featuring immersive sounds and interactivity to keep users focused and motivated.",
-    "learningPath": "Gamification in web applications, retro design, audio manipulation with the Web Audio API, and responsive styling using Tailwind CSS.",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Web Audio API"],
-    "repository": "https://github.com/username/gamified-retro-todolist",
+    "description": "An interactive and visually captivating portfolio showcasing projects, skills, and experience with smooth animations and a modern carousel design.",
+    "learningPath": "Building modern and responsive portfolios, advanced animations with Framer Motion, carousel integration using Embla Carousel, and creating accessible components with Radix UI.",
+    "technologies": ["Next.js", "Framer Motion", "Embla Carousel", "Radix UI", "Tailwind CSS"],
+    "repository": "https://github.com/lcscostadev/lcscostadev-portfolio",
     "liveUrl": "https://gamified-retro-todolist-demo.com",
-    "image": "/placeholder.svg?height=300&width=400"
-  }  
+    "image": "/lcscostadev-website.png?height=300&width=400"
+  }
 ]
 
 export default function Component({ options = {} }) {
