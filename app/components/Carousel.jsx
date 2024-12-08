@@ -26,7 +26,7 @@ const slides = [
     description: "A top-down 2D adventure game where players evade and battle slimes, collect weapons, and survive.",
     learningPath: "Game development with Java, 2D graphics, and AI behaviors",
     technologies: ["Java", "Java Swing", "Object-Oriented Programming"],
-    repository: " ",
+    repository: "https://github.com/lcscostadev/Gramundor-Java-Game",
     liveUrl: "",
     image: "/gramundor.gif?height=300&width=400",
   },
@@ -47,7 +47,7 @@ const slides = [
     "learningPath": "Gamification in web applications, retro design, audio manipulation with the Web Audio API, and responsive styling using Tailwind CSS.",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Web Audio API"],
     "repository": "https://github.com/lcscostadev/Gamified-Retro-ToDoList",
-    "liveUrl": "https://gamified-retro-todolist-demo.com",
+    "liveUrl": "https://gamified-retro-to-do-list.vercel.app/",
     "image": "/retro-todo-list.png?height=300&width=400"
   },
   {
@@ -57,7 +57,7 @@ const slides = [
     "learningPath": "Building modern and responsive portfolios, advanced animations with Framer Motion, carousel integration using Embla Carousel, and creating accessible components with Radix UI.",
     "technologies": ["Next.js", "Framer Motion", "Embla Carousel", "Radix UI", "Tailwind CSS"],
     "repository": "https://github.com/lcscostadev/lcscostadev-portfolio",
-    "liveUrl": "https://gamified-retro-todolist-demo.com",
+    "liveUrl": "https://lcscostadev-portfolio.vercel.app/",
     "image": "/lcscostadev-website.png?height=300&width=400"
   }
 ]
