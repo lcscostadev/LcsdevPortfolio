@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Developer Portfolio – Lucas Costa
 
-## Getting Started
+Hi! I'm **Lucas Costa**, a passionate Computer Science student and web developer. This is my personal portfolio where I showcase the projects I've built, the skills I've developed, and the certifications I've earned. I created this site not just to share my work, but to reflect my growth, creativity, and enthusiasm for learning.
 
-First, run the development server:
+---
+
+## 🧭 Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies I Use](#technologies-i-use)
+- [Configuration](#configuration)
+- [Project Structure](#project-structure)
+- [Live Examples](#live-examples)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+
+---
+
+## ✨ Introduction
+
+I'm 26 years old and currently pursuing a degree in Computer Science. I’m driven by a desire to learn and improve every day. This portfolio is a reflection of that journey, featuring full-stack web apps, interactive UI components, and some experimental projects that pushed me out of my comfort zone.
+
+---
+
+## 🚀 Features
+
+- 🎠 Dynamic project carousel using **Embla Carousel**
+- 💡 Interactive skill icons with project links
+- 🏅 Filterable certifications with tooltips and categories
+- 🎨 Responsive design and smooth animations
+- 🧩 Clean architecture using modular React components
+- 🌐 Hosted online for easy access and sharing
+
+---
+
+## 🛠 Installation
+
+If you’d like to run this project locally:
 
 ```bash
+git clone https://github.com/lcscostadev/LcsdevPortfolio.git
+cd lcscostadev-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📖 Usage
 
-## Learn More
+Once the project is running:
 
-To learn more about Next.js, take a look at the following resources:
+- Scroll through to read my **About Me** section
+- Browse projects in the carousel, click to open modals with full details
+- View certifications by category with informative tooltips
+- Click skill icons to explore my experience and related projects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🧰 Technologies I Use
 
-## Deploy on Vercel
+This portfolio is built with some of the tools I love:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js** (App Router, SSR)
+- **React**
+- **Framer** (animations)
+- **Tailwind CSS** + `tailwind-merge` + `clsx`
+- **Embla Carousel**
+- **Radix UI** components (Tooltips, Dialogs)
+- **Lucide Icons**, **React Icons**
+- **TypeScript** and **JavaScript**
+- **Responsive design** via `react-responsive`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## ⚙️ Configuration
+
+You can personalize your own version by modifying:
+
+- `Presentation.jsx` → About section and social links
+- `Skills.jsx` → Skills and associated projects
+- `Carousel.jsx` → Projects, descriptions, images, links
+- `CertificationsBadge.jsx` → Certification data and filters
+
+Feel free to swap in your own assets inside the `public/` folder.
+
+---
+
+## 📁 Project Structure
+
+```
+components/
+├── Presentation.jsx         # About me + social links
+├── Carousel.jsx             # Project showcase
+├── Skills.jsx               # Animated skill icons
+├── CertificationsBadge.jsx # Certification filter + display
+├── embla.css                # Carousel styles
+├── Header.jsx               # (optional) navigation
+app/
+└── page.jsx                 # Home page layout and section anchors
+public/
+└── (project images, profile photo, etc.)
+```
+
+---
+
+## 🌐 Live Examples
+
+Check out the live site and some of the featured projects:
+
+- 🧑‍💻 [My Portfolio](https://lcscostadev-portfolio.vercel.app)
+- ⚙️ [FastFreeTools.com](https://fastfreetools.com)
+- 🎮 [2D Java Game](https://github.com/lcscostadev/Gramundor-Java-Game)
+- 🤖 [Discord Bot GVBot](https://lcscostadev.github.io/Discord-bot-GVBot-website/)
+- ✅ [Gamified Retro ToDoList](https://gamified-retro-to-do-list.vercel.app/)
+
+---
+
+## 🧯 Troubleshooting
+
+If something isn’t working:
+
+- ❌ **Images not loading?** → Make sure the paths in `/public` match exactly.
+- 🎡 **Carousel issues?** → Check Embla config and CSS class bindings.
+- 🧩 **UI broken?** → Make sure all Radix UI and Tailwind dependencies are installed.
+
+Let me know via GitHub if you spot any bugs — I’m always improving things!
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE). You're welcome to explore, learn from, and even fork it for your own use. just give credit where it's due. 🙌

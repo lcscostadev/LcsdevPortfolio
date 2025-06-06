@@ -21,7 +21,7 @@ const skillsData = [
   { id: 3, component: SiTypescript, name: "TypeScript", color: "text-[#3178C6]", experience: "1 year", projects: ["Habit Gamification App", "Fast Free Tools"] },
   // { id: 4, component: FaPython, name: "Python", color: "text-[#3776AB]", experience: "4 years", projects: ["Machine Learning Model", "Web Scraper"] },
   { id: 5, component: SiJavascript, name: "JavaScript", color: "text-[#F7DF1E]", experience: "3 years", projects: ["Interactive Web Games", "Browser Extensions"] },
-  { id: 6, component: FaJava, name: "Java", color: "text-[#007396]", experience: "1 years", projects: ["2D Games"] },
+  { id: 6, component: FaJava, name: "Java", color: "text-[#007396]", experience: "1 year", projects: ["2D Games"] },
   { id: 7, component: SiNextdotjs, name: "Next.js", color: "text-white", experience: "2 years", projects: ["Server-side Rendered App", "Habit Gamification App", "Fast Free Tools"] },
   // { id: 8, component: FaDocker, name: "Docker", color: "text-[#2496ED]", experience: "1 year", projects: ["Containerized Microservices", "CI/CD Pipeline"] },
 ]
