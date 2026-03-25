@@ -26,7 +26,7 @@ const slides = [
     description: "A top-down 2D adventure game where players evade and battle slimes, collect weapons, and survive.",
     learningPath: "Game development with Java, 2D graphics, and AI behaviors",
     technologies: ["Java", "Java Swing", "Object-Oriented Programming"],
-    repository: "https://github.com/lcscostadev/Gramundor-Java-Game",
+    repository: "https://github.com/secatul/Gramundor-Java-Game",
     liveUrl: "",
     image: "/gramundor.gif?height=300&width=400",
   },
@@ -36,8 +36,8 @@ const slides = [
     "description": "GVBot is a Node.js-based Discord bot that automates tasks and enhances server interaction, offering customizable commands for moderation and more.",
     "learningPath":"Learn the basics of JavaScript and Node.js, then set up a Discord bot using the 'discord.js' library. Create custom commands and user interactions.",
     "technologies": ["Node.js", "discord.js", "JavaScript", "API Integration"],
-    "repository": "https://github.com/lcscostadev/DiscordBOT",
-    "liveUrl": "https://lcscostadev.github.io/Discord-bot-GVBot-website/",
+    "repository": "https://github.com/secatul/DiscordBOT",
+    "liveUrl": "https://secatul.github.io/Discord-bot-GVBot-website/",
     "image": "/gvg-bot.png?height=300&width=400"
   },
   {
@@ -46,7 +46,7 @@ const slides = [
     "description": "A gamified to-do list with a retro design inspired by classic games, featuring immersive sounds and interactivity to keep users focused and motivated.",
     "learningPath": "Gamification in web applications, retro design, audio manipulation with the Web Audio API, and responsive styling using Tailwind CSS.",
     "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Web Audio API"],
-    "repository": "https://github.com/lcscostadev/Gamified-Retro-ToDoList",
+    "repository": "https://github.com/secatul/Gamified-Retro-ToDoList",
     "liveUrl": "https://gamified-retro-to-do-list.vercel.app/",
     "image": "/retro-todo-list.png?height=300&width=400"
   },
@@ -56,7 +56,7 @@ const slides = [
     "description": "An interactive and visually captivating portfolio showcasing projects, skills, and experience with smooth animations and a modern carousel design.",
     "learningPath": "Building modern and responsive portfolios, advanced animations with Framer Motion, carousel integration using Embla Carousel, and creating accessible components with Radix UI.",
     "technologies": ["Next.js", "Framer Motion", "Embla Carousel", "Radix UI", "Tailwind CSS"],
-    "repository": "https://github.com/lcscostadev/lcscostadev-portfolio",
+    "repository": "https://github.com/secatul/lcscostadev-portfolio",
     "liveUrl": "https://lcscostadev-portfolio.vercel.app/",
     "image": "/lcscostadev-website.png?height=300&width=400"
   }

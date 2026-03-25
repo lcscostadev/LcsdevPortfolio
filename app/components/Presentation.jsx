@@ -15,7 +15,7 @@ export default function Portfolio() {
           <aside className="md:w-1/3 p-6 bg-gray-700 flex flex-col items-center justify-center">
             <div className="relative w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white shadow-lg mb-6">
               <Image
-                src="/profile.png"
+                src="/secatul_pfp.png"
                 layout="fill"
                 objectFit="cover"
                 alt="Profile picture of Lucas Costa"
@@ -25,10 +25,10 @@ export default function Portfolio() {
             <h1 className="text-2xl font-bold mb-2">Lucas Costa</h1>
             <p className="text-gray-300 text-center mb-4">Computer Science Student</p>
             <div className="flex space-x-4 mb-6">
-              <SocialIcon Icon={Linkedin} bg="bg-[#0077B5]" href="https://www.linkedin.com/in/lcscostadev" />
-              <SocialIcon Icon={Github} bg="bg-[#333]" href="https://github.com/lcscostadev" />
-              <SocialIcon Icon={Twitter} bg="bg-[#1DA1F2]" href="https://twitter.com/lcscostadev" />
-              <SocialIcon Icon={Youtube} bg="bg-[#FF0000]" href="https://www.youtube.com/@lcscostadev" />
+              <SocialIcon Icon={Linkedin} bg="bg-[#0077B5]" href="https://www.linkedin.com/in/secatul" />
+              <SocialIcon Icon={Github} bg="bg-[#333]" href="https://github.com/secatul" />
+              <SocialIcon Icon={Twitter} bg="bg-[#1DA1F2]" href="https://twitter.com/secatul" />
+              <SocialIcon Icon={Youtube} bg="bg-[#FF0000]" href="https://www.youtube.com/@secatul" />
             </div>
             <button className="group bg-yellow-500 text-gray-900 font-semibold py-3 px-6 rounded-full shadow-md hover:bg-yellow-400 hover:shadow-lg transition-all duration-300 flex items-center space-x-2" onClick={() => document.getElementById('carousel').scrollIntoView({ behavior: 'smooth' })}>
               <span>SEE PROJECTS</span>
